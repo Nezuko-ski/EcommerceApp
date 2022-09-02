@@ -1,0 +1,1195 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+@font-face{
+    font-family: Poppins;
+    src: url('./Poppins-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 100vw;
+    }
+}
+
+/*.container {
+    flex: 3; 
+    display: flex;
+}*/
+
+.cover{
+    background-image: url('Promotion Image.jpg');
+    /* position: absolute;
+    width: 1918.48px;*/
+    height: 653.73px;
+    /*  left: -208.48px;
+    top: 165.27px;*/
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    /*width: 1918.48px;*/
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    left: 250px;
+    top: 350px;
+}
+
+p {
+    /*position: absolute;
+    font-style: normal;
+    font-weight: 700;*/
+    /*width: 1918.48px;*/
+    /*height: 653.73px;
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    left: 250px;
+    top: 450px;*/
+}
+
+#usd {
+    right: -200px;
+}
+
+.selected {
+    color: #33A0FF;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+small {
+    font-size: 20px;
+    position: relative;
+    right: -66px;
+    bottom: -348px;
+    color: #FFF;
+    opacity: .7;
+}
+
+.small {
+    font-family: p;
+}
+
+.balance {
+    opacity: .5;
+}
+
+.vec {
+    position: relative;
+    top: -14px;
+    left: 35px;
+}
+
+.ecomm {
+    position: relative;
+    top: -43px;
+    left: 71px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.second_layer_row {
+    display: flex;
+   /* width: 1440px;*/
+    position: relative;
+    justify-content: center;
+    top: -100px;
+}
+
+.second_layer_col1 h6 {
+    text-align-last: center;
+    bottom: -600px;
+}
+
+.Quilted {
+    margin-top: 46px;
+    margin-left: 52px;
+    margin-bottom: 179px;
+    color: #223263;
+}
+
+.Nike {
+    margin-top: 25px;
+    margin-left: 50px;
+    color: #223263;
+}
+
+.NikeC {
+    display: flex;
+    justify-content: right;
+    margin-top: -80px;
+    margin-right: 35px;
+    margin-left: 283px;
+    margin-bottom: 314px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 93px;
+}
+
+.payment {
+    display: flex;
+    margin-right: 181px;
+}
+
+.card {
+    margin-right: 10px;
+}
+
+
+.nikec {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.NikeRed {
+    margin-left: 53px;
+}
+
+.shoec {
+    margin-top: 5px;
+    margin-left: 130px;
+}
+
+.NikeR {
+    margin-top: 32px;
+    margin-left: 53px;
+    color: #223263;
+}
+
+.shoecost {
+    display: inline;
+    margin-right: 8px;
+    text-decoration: line-through;
+    color: #9098B1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Poppins';
+}
+
+.shoediscount {
+    display: inline;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FB7181;
+   /* width: 80.95px;*/
+    height: 27px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.nikecost {
+    display: inline;
+    margin-right: 8px;
+    text-decoration: line-through;
+    color: #9098B1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Poppins';
+}
+
+.nikediscount {
+    display: inline;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FB7181;
+    /*width: 76.23px;*/
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bagcost {
+    display: inline;
+    margin-right: 8px;
+    text-decoration: line-through;
+    color: #9098B1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Poppins';
+}
+
+.bagprice {
+    color: #40BFFF;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 180%;
+    letter-spacing: 0.5px;
+   /* width: 117.82px;*/
+    height: 39.29px;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.nikeprice {
+    color: #40BFFF;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 180%;
+    letter-spacing: 0.5px;
+    /* width: 117.82px;*/
+    height: 39.29px;
+    font-family: 'Raleway';
+    font-style: normal;
+    margin-top: 248px;
+    margin-top: 178px;
+    margin-right: 20px;
+}
+
+.shoeprice {
+    position: absolute;
+    /*width: 116px;*/
+    height: 54px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 180%;
+    letter-spacing: 0.5px;
+    color: #40BFFF;
+    margin-top: 20px;
+}
+
+.bagp {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.bagc {
+    margin-left: 60px;
+}
+
+.discount {
+    display: inline;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #FB7181;
+    /*width: 75.54px;*/
+    height: 27px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.second_layer_col1 {
+    width: 417.94px;
+    height: 358.31px;
+    border-radius: 5px;
+    background-image: url('image Product(1).jpg');
+    text-decoration: none;
+}
+
+.second_layer_col3 {
+    width: 408.57px;
+    height: 356.96px;
+    border-radius: 5px;
+    background-image: url('image Product(3).jpg');
+}
+
+.second_layer_col2 {
+    width: 434.36px;
+    height: 354.01px;
+    border-radius: 5px;
+    background-image: url('image Product(2).jpg');
+}
+
+.best {
+    margin: auto;
+    margin-left: 150px;
+    color: #22262A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 52px;
+}
+
+.content {
+    margin: auto;
+}
+
+.third_layer_col2 {
+    margin: auto;
+    
+}
+
+.third_layer_row {
+    display: flex;
+    justify-content: center;
+}
+
+#adidas {
+    bottom: 400px;
+    right: 210px;
+}
+
+.accessories {
+    padding: 7px 15px;
+}
+
+.fourth_layer_row {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 37px;
+    left: -48px;
+}
+
+.hot {
+    padding: 5px;
+    position: relative;
+    color: white;
+    background-color: #FF4858;
+    top: -2px;
+    z-index: 2;
+}
+
+.nanatsu {
+    position: relative;
+    top: 320px;
+    margin-left: 93px;
+    color: #223263;
+}
+
+.nanatsu2 {
+    position: relative;
+    top: 243px;
+    margin-left: 432px;
+    color: #223263;
+}
+
+.nanatsu3 {
+    position: relative;
+    top: 169px;
+    margin-left: 756px;
+    color: #223263;
+}
+
+.nanatsu4 {
+    position: relative;
+    top: 94px;
+    margin-left: 1101px;
+    color: #223263;
+}
+
+.noragami {
+    position: relative;
+    top: 444px;
+    margin-left: 127px;
+    color: #223263;
+}
+
+.noragami2 {
+    position: relative;
+    top: 368px;
+    margin-left: 457px;
+    color: #223263;
+}
+
+.noragami3 {
+    position: relative;
+    top: 292px;
+    margin-left: 812px;
+    color: #223263;
+}
+
+.noragami4 {
+    position: relative;
+    top: 212px;
+    margin-left: 1137px;
+    color: #223263;
+}
+
+.load {
+    position: relative;
+    margin-left: 685px;
+    top: 244px;
+    color: #33A0FF;
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+.star1 {
+    position: relative;
+    margin-left: 42px;
+}
+
+.star2 {
+    position: relative;
+    margin-left: 42px;
+}
+
+.star3 {
+    position: relative;
+    margin-left: 42px;
+}
+
+.star4 {
+    position: relative;
+    margin-left: 42px;
+}
+
+.jutsu {
+    display: flex;
+}
+
+.jutsu2 {
+    display: flex;
+}
+
+.jutsu3 {
+    display: flex;
+}
+
+.jutsu4 {
+    display: flex;
+}
+
+.recfoot {
+    position: relative;
+}
+
+.vecfoot {
+    position: relative;
+    top: -13px;
+    left: -35px;
+}
+
+
+.jformer {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: #9098B1;
+}
+
+.jprice {
+    color: #40BFFF;
+}
+
+.jdiscount {
+    color: #FB7181;
+}
+
+.circle1 {
+    position: relative;
+    top: -128px;
+    left: 76px;
+}
+
+.circle2 {
+    position: relative;
+    top: -127px;
+    left: 99px;
+}
+
+.hearts {
+    position: relative;
+    top: -145px;
+    left: -18px;
+}
+
+.cart2 {
+    position: relative;
+    top: -145px;
+    left: 38px;
+}
+
+.form-control {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.shortline {
+    position: relative;
+    width: 70px;
+    top: -116px;
+    left: -524px;
+    color: #FFF;
+}
+
+.fourth_layer_col1 {
+    position: absolute;
+    /*width: 299.5px;*/
+    height: 272.5px;
+    left: 83.5px;
+    top: 1287.67px;
+    border-radius: 5px;
+    background-image: url('image Product(4).jpg');
+}
+
+.fourth_layer_col2 {
+    position: absolute;
+    /*  width: 301px;*/
+    height: 276.5px;
+    left: 417.5px;
+    top: 1311.7px;
+    border-radius: 5px;
+}
+
+.fourth_layer_col3 {
+    position: absolute;
+   /* width: 264px;*/
+    height: 279px;
+    top: 1283px;
+    left: 754px;
+    background: #FFFFFF;
+    opacity: 0.95;
+}
+
+.fourth_layer_col4 {
+    position: absolute;
+    /* width: 294.5px;*/
+    height: 272.5px;
+    left: 1088px;
+    top: 1318.7px;
+    border-radius: 5px;
+}
+
+.fifth_layer_col1 {
+    position: absolute;
+   /* width: 301px;*/
+    height: 279.12px;
+    left: 83.5px;
+    top: 1708.17px;
+    border-radius: 8px;
+}
+
+.fifth_layer_col2 {
+    position: absolute;
+    /*width: 310.5px;*/
+    height: 273.62px;
+    left: 412px;
+    top: 1713.67px;
+    border-radius: 8px;
+}
+
+.fifth_layer_col3 {
+    position: absolute;
+   /* width: 298px;*/
+    height: 279.12px;
+    left: 754px;
+    top: 1708.17px;
+    border-radius: 5px;
+}
+
+.fifth_layer_col4 {
+    position: absolute;
+   /* width: 305.42px;*/
+    height: 279.12px;
+    left: 1088.08px;
+    top: 1708.17px;
+    border-radius: 5px;
+}
+
+.fifth_layer_row {
+    display: flex;
+    position: absolute;
+    top: 37px;
+}
+
+.sixth_layer_row {
+    position: relative;
+    background-color: #40BFFF;
+    /*width: 1920px;*/
+    height: 692px;
+    top: 343px;
+    left: -2px;
+}
+
+.adidas {
+    position: absolute;
+    bottom: 442px;
+    right: 729px;
+    font-size: 55px;
+    color: #FFF;
+    font-weight: 100;
+}
+
+.puma {
+    font-size: 55px;
+    color: #FFFFFF;
+    right: 1032px;
+    position: absolute;
+    bottom: 371px;
+}
+
+.sixth_layer_col {
+    position: absolute;
+    height: 598.94px;
+    left: 592.2px;
+    bottom: 181px;
+}
+
+#shop {
+    position: relative;
+    top: -120px;
+    right: 525px;
+    color: #FFF;
+}
+
+h2 {
+    right: 300px;
+
+}
+
+.seventh_layer_row {
+    height: 169.14px;
+    /*left: 191.36px;
+    top: 2946.2px;*/
+    display: flex;
+    border-radius: 0px;
+}
+
+.seventh_layer_col1 {
+    text-align: center;
+}
+
+.seventh_layer_col2 {
+    text-align: center;
+}
+
+.seventh_layer_col3 {
+    text-align: center;
+}
+
+.eight_layer_row {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    align-content: center;
+}
+
+.ninth_layer_col2 {
+    position: relative;
+    left: 332px;
+}
+
+.ninth_layer_col3 {
+    position: relative;
+    left: 629px;
+}
+
+.lan-cur {
+    border: none;
+    margin: 0;
+    font-size: 15px;
+    position: relative;
+    left: 32px;
+}
+
+.truck {
+    position: relative;
+    top: 468px;
+    left: 159px;
+}
+
+.refund {
+    position: relative;
+    top: 460px;
+    left: 418px;
+}
+
+.dollar {
+    position: relative;
+    top: 443px;
+    left: 367px;
+}
+
+.torso {
+    position: relative;
+    top: 455px;
+    left: 705px;
+}
+
+.body {
+    position: relative;
+    top: 480px;
+    left: 633px;
+}
+
+.free {
+    position: relative;
+    top: 514px;
+    left: 155px;
+}
+
+.lorem {
+    width: 218px;
+    position: relative;
+    top: 520px;
+    left: 157px;
+    opacity: .5;
+}
+
+.lorem2 {
+    position: relative;
+    top: 507px;
+    left: 415px;
+    width: 219px;
+    opacity: .5;
+}
+
+.lorem3 {
+    position: relative;
+    top: 516px;
+    left: 672px;
+    width: 218px;
+    opacity: .5;
+}
+
+.lorem4 {
+    position: relative;
+    width: 218px;
+    top: 718px;
+    left: 79px;
+    opacity: .5;
+}
+
+.lorem5 {
+    position: relative;
+    width: 218px;
+    top: 684px;
+    left: 163px;
+    opacity: .5;
+}
+
+.lorem6 {
+    position: relative;
+    width: 218px;
+    top: 691px;
+    left: 281px;
+    opacity: .5;
+}
+
+.date1 {
+    position: relative;
+    top: 699px;
+    left: 82px;
+    opacity: .2;
+}
+
+.date2 {
+    position: relative;
+    top: 659px;
+    left: 165px;
+    opacity: .2;
+}
+
+.date3 {
+    position: relative;
+    top: 668px;
+    left: 288px;
+    opacity: .2;
+}
+
+.fashion {
+    position: relative;
+    top: 708px;
+    left: 81px;
+    font-family: q;
+    font-size: 20px;
+}
+
+.design {
+    position: relative;
+    top: 672px;
+    left: 163px;
+    font-family: p;
+    font-size: 20px;
+}
+
+.hr {
+    position: relative;
+    top: 676px;
+    left: 282px;
+    font-family: p;
+    font-size: 20px;
+}
+
+.hundred {
+    position: relative;
+    top: 502px;
+    left: 410px;
+}
+
+.support {
+    position: relative;
+    top: 515px;
+    left: 674px;
+}
+
+.latest {
+    position: relative;
+    top: 689px;
+    left: 677px;
+}
+
+.nikel {
+    position: relative;
+    top: 802px;
+    left: -88px;
+}
+
+.figma {
+    position: relative;
+    top: 791px;
+    left: 50px;
+}
+
+.kronos {
+    position: relative;
+    top: 781px;
+    left: 95px;
+}
+
+.featured {
+    position: relative;
+    top: 741px;
+    left: 648px;
+}
+
+.blue {
+    position: relative;
+    top: 632px;
+    left: 245px;
+    font-family: p;
+}
+
+.swade {
+    position: relative;
+    top: 634px;
+    left: 246px;
+    font-family: p;
+}
+
+.star5 {
+    position: relative;
+    top: 675px;
+    left: 245px;
+}
+
+.vector {
+    position: relative;
+    top: 794px;
+    left: 78px;
+}
+
+.ninth_layer_row {
+    display: flex;
+}
+
+.swadecost {
+    color: #FF4858;
+    position: relative;
+    top: 680px;
+    left: 248px;
+    font-family: p;
+}
+
+.swadeprice {
+    color: #C1C8CE;
+    position: relative;
+    top: 659px;
+    left: 292px;
+    text-decoration: line-through;
+    font-family: p;
+}
+
+.all {
+    color: #33A0FF;
+    text-decoration: underline;
+}
+
+.search-box {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.search-box input, button {
+    width: 75%;
+    border: .5px solid #40BFFF;
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    background: transparent;
+    color: #40BFFF;
+}
+
+.search-box button {
+    width: 25%;
+    background: #40BFFF;
+    color: white;
+    float: right;
+    border-left: 0px;
+}
+
+.search-wrap {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    position: relative;
+    top: 785px;
+    left: 26px;
+}
+
+.footer-box {
+    background-color: #BCDDFE;
+    position: relative;
+    top: 868px;
+    height: 616px;
+}
+
+.footer-up-margin {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 20px;
+}
+
+.footer-up-logo {
+    width: 7rem;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer-up-title {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer-up-title h1 {
+    font-size: 20px;
+    position: relative;
+    top: 17px;
+    left: 64px;
+    color: #22262A;
+    font-family: p;
+}
+
+.footer-down-margin {
+    display: grid;
+    grid-template-columns: 18.75% 18.75% 18.75% 18.75%;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 15px;
+}
+
+.footer-down-title {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.footer-down-text {
+    font-family: p;
+    font-size: 20px;
+}
+
+.footer-down-title h1 {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: -4px;
+    color: #22262A;
+    font-family: p;
+}
+
+.footer-down-text p {
+    font-size: 20px;
+}
+
+.marmora {
+    position: relative;
+    top: 3px;
+    left: 66px;
+    width: 185px;
+    font-family: p;
+    font-size: 20px;
+}
+
+.ipsum {
+    position: relative;
+    top: -20px;
+    font-family: p;
+    font-size: 20px;
+}
+
+.ecomfoot {
+    position: absolute;
+    top: 65px;
+    left: 209px;
+    font-family: p;
+    font-size: 20px;
+}
+
+.printer {
+    position: relative;
+    left: 64px;
+    font-family: p;
+    font-size: 20px;
+    top: 2px;
+}
+
+.bisen {
+    opacity: .1;
+    margin-left: 68px;
+
+}
+
+.facebook {
+    position: relative;
+    top: 20px;
+    left: 69px;
+}
+
+.twitter {
+    position: relative;
+    top: 19px;
+    left: 110px;
+}
+
+.bottomline {
+    position: relative;
+    top: 68px;
+    width: 1151px;
+    left: 60px;
+    color: #F6F7F8;
+}
+
+.url {
+    display: flex;
+}
+
+.lan-cur-wrap {
+
+}
+
+/*a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}*/
+
+/* Provide sufficient contrast against white background */
+/*a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}*/
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {*/
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;*/ /* Vertically center the text there */
+/*}*/

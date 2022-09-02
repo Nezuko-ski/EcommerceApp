@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MikasaMVC", "MikasaMVC\MikasaMVC.csproj", "{F786A160-2E72-426D-AE04-6D8FF56E9D31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mikasa.Infrastructure", "EComm.Data\Mikasa.Infrastructure.csproj", "{1C44A536-1916-49B0-AEAB-42C376621CA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F786A160-2E72-426D-AE04-6D8FF56E9D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F786A160-2E72-426D-AE04-6D8FF56E9D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F786A160-2E72-426D-AE04-6D8FF56E9D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F786A160-2E72-426D-AE04-6D8FF56E9D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C44A536-1916-49B0-AEAB-42C376621CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C44A536-1916-49B0-AEAB-42C376621CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C44A536-1916-49B0-AEAB-42C376621CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C44A536-1916-49B0-AEAB-42C376621CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {883198F5-8A39-4EAD-8294-636E053119DF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,336 @@
+﻿@model IEnumerable<Product>;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<body>
+    <div class="cover">
+        @*<img src="./css/Promotion Image.jpg" />*@
+        <h1 style="margin:auto -150px">Super Flash Sale <br />50% Off</h1>
+        <p></p>
+    </div>
+    <div>
+        <div class="second_layer_row">
+            <a asp-controller="Product" asp-action="Details" asp-route-id="2" class="second_layer_col1" style="text-decoration: none">
+                <div class="Quilted">                   
+                    <h4>FS - QUILTED MAXI </h4>
+                    <h4>CROSS BAG</h4>
+                </div> 
+                <div class="bagc">
+                    <h5 class="bagcost">$534,33</h5>
+                    <h5 class="discount">24% Off</h5>
+                </div>
+                <div class="bagp">
+                    <h4 class="bagprice">$299,43</h4>
+                </div>          
+            </a>
+             <a asp-controller="Product" asp-action="Details" asp-route-id="1" class="second_layer_col2" style="text-decoration: none">
+                <div class="Nike">
+                    <h4>FS - Nike Air </h4>
+                    <h4>Max 270 React...</h4>
+                </div>  
+                <div class="NikeC">
+                    <h4 class="shoeprice">$299,43</h4>
+                </div>
+                <div class="shoec">
+                    <h5 class="shoecost">$534,33</h5>
+                    <h5 class="shoediscount">24% Off</h5>
+                </div>
+            </a>
+             <a asp-controller="Product" asp-action="Details" asp-route-id="7" class="second_layer_col3" style="text-decoration: none">
+                <div class="NikeR">
+                        <h4>FS - Nike Air </h4>
+                        <h4>Max 270 React...</h4>
+                </div>
+                <div class="NikeRed">
+                    <h5 class="nikecost">$534,33</h5>
+                    <h5 class="nikediscount">24% Off</h5>
+                </div>
+                <div class="nikec">
+                        <h4 class="nikeprice">$299,43</h4>
+                </div>
+            </a>
+        </div>
+        <div class = "third_layer_row">
+            <div class="third_layer_col1">
+
+            </div>
+            <div class="third_layer_col2">
+                <h2 class="best">BEST SELLER</h2>
+                <nav>
+                    <ul class="accessories">
+                        <li><a asp-controller="Product" asp-action="Index" class="all">All</a></li>
+                        <li><a href="#">Bags</a></li>
+                        <li><a href="#">Sneakers</a></li>
+                        <li><a href="#">Belt</a></li>
+                        <li><a href="#">Sunglasses</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="third_layer_col3">
+
+            </div> 
+        </div>
+        <div class="fourth_layer_row" style="left: -48px;">
+            <div class="fourth_layer_col1">
+                <span class="hot">HOT</span>
+                <div>
+                    <a asp-controller="Product" asp-action="Details" asp-route-id="22"> <img src="~/css/image Product(4).jpg" style="position: relative; top: -30px;" /></a>
+                </div>
+            </div>
+            <div class="fourth_layer_col2" style="top: 1311.7px;">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="25"> <img src="~/css/image Product(5).jpg" style="position: relative; top: -30px;" /></a>
+            </div>
+            <div class="fourth_layer_col3" style="top: 1283px;">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="18"> <img src="~/css/overlay.jpg" /></a>
+                <img class="circle1" src="~/css/Circle.png" />
+                <img class="circle2" src="~/css/Circle.png" />
+                <img class="hearts" src="~/css/hearts.png" />
+                <img class="cart2" src="~/css/cart_2.png"/>
+            </div>
+            <div class="fourth_layer_col4" style="top: 1318.7px;">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="14"> <img src="~/css/image Product(6).jpg" style="position: relative; top: -30px;" /></a>
+            </div>
+        </div>
+        <div class="nanatsu" style="margin-left: 93px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star1">
+                <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>   
+            <div class="jutsu">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <div class="nanatsu2" style="margin-left: 432px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star2">
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>
+            <div class="jutsu2">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <div class="nanatsu3" style="margin-left: 756px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star3">
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>
+            <div class="jutsu3">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <div class="nanatsu4" style="margin-left: 1101px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star4">
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>
+            <div class="jutsu4">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <div class="fifth_layer_row" style="left: -48px;">
+            <div class="fifth_layer_col1">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="1"><img src="~/css/Product Picture02.jpg" /></a>
+            </div>
+            <div class="fifth_layer_col2">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="1"><img src="~/css/Product Picture03.jpg" /></a>
+            </div>
+            <div class="fifth_layer_col3">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="1"><img src="~/css/Product Picture01.jpg" /></a>
+            </div>
+            <div class="fifth_layer_col4">
+                <a asp-controller="Product" asp-action="Details" asp-route-id="14"><img src="~/css/image Product(6).jpg" /></a>
+            </div>
+        </div>
+        <div class="noragami" style="margin-left: 93px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star1">
+                <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>   
+            <div class="jutsu">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <div class="noragami2" style="margin-left: 432px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star2">
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>
+            <div class="jutsu2">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <div class="noragami3" style="margin-left: 756px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star3">
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>
+            <div class="jutsu3">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <div class="noragami4" style="margin-left: 1101px;">
+            <h4>Nike Air Max 270 React</h4>
+            <div class="star4">
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+             <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+              <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+               <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+            </div>
+            <div class="jutsu4">
+                <h4 class="jprice">$299,43</h4>
+                <h5 class="jformer">$534,33</h5>
+                <h5 class="jdiscount">24% Off</h5>
+            </div>
+        </div>
+        <h3 class="load">LOAD MORE</h3>
+        <div class="sixth_layer_row">
+                <div class="odidas">
+                    <h2 class="adidas">Adidas Men Running</h2>
+                    <h2 class="puma">Sneakers</h2>
+                </div>
+                <small>Performance and design. Taken right to the edge.</small>
+                
+            <div class="sixth_layer_col"> 
+                <img src="~/css/shoes-shoe.png" />
+                <h3 id="shop">SHOP NOW</h3>
+                <hr class="shortline">
+            </div>   
+        </div>
+        <div class="seventh_layer_row">
+            <div class="seventh_layer_col1">
+                <img class="truck" src="~/css/shipping.png" />
+                <h3 class="free">FREE SHIPPING</h3>
+                <p class="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="seventh_layer_col2">
+                <img class="refund" src="~/css/figma task/Path 1.png" />
+                <img class="dollar" src="~/css/figma task/Path 2.png" />
+                <h3 class="hundred">100% REFUND</h3>
+                <p class="lorem2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="seventh_layer_col3">
+                <img class="torso" src="~/css/Path 4.png" />
+                <img class="body" src="~/css/Path 3.png" />
+                <h3 class="support">SUPPORT 24/7</h3>
+                <p class="lorem3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <h3 class="latest">LATEST NEWS</h3>
+        <div class="eight_layer_row">
+            <div class="eight_layer_col1">
+                <img class="nikel" src="~/css/Nike_logo.png" />
+                <h5 class="date1">01 Jan, 2015</h5>
+                <h4 class="fashion">Fashion Industry</h4>
+                <p class="lorem4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="eight_layer_col2">
+                <img class="figma" src="~/css/figma-1-logo 1.png" />
+                 <h5 class="date2">01 Jan, 2015</h5>
+                 <h4 class="design">Best Design Tools</h4>
+                  <p class="lorem5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="eight_layer_col3">
+                <img class="kronos" src="~/css/kronos-logo.png" />
+                <h5 class="date3">01 Jan, 2015</h5>
+                <h4 class="hr">HR Community</h4>
+                 <p class="lorem6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+        <h3 class="featured">FEATURED PRODUCTS</h3>
+        <div class="ninth_layer_row">
+             <a asp-controller="Product" asp-action="Details" asp-route-id="3" class="ninth_layer_col1" style="text-decoration: none">
+                    <img class="vector" src="~/css/Vector.png"/>
+                     <h3 class="blue">Blue Swade Nike</h3>
+                <h3 class="swade">Sneakers</h3>
+                <div class="star5">
+                     <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                  <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                   <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                     <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+                </div>
+                <h3 class="swadecost">$499</h3>
+                <h3 class="swadeprice">$599</h3>
+            </a>
+             <a asp-controller="Product" asp-action="Details" asp-route-id="3" class="ninth_layer_col2" style="text-decoration: none">
+                    <img class="vector" src="~/css/Vector.png"/>
+                     <h3 class="blue">Blue Swade Nike</h3>
+                <h3 class="swade">Sneakers</h3>
+                <div class="star5">
+                     <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                  <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                   <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                     <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+                </div>
+                <h3 class="swadecost">$499</h3>
+                <h3 class="swadeprice">$599</h3>
+            </a>
+              <a asp-controller="Product" asp-action="Details" asp-route-id="3" class="ninth_layer_col3" style="text-decoration: none">
+                    <img class="vector" src="~/css/Vector.png"/>
+                     <h3 class="blue">Blue Swade Nike</h3>
+                <h3 class="swade">Sneakers</h3>
+                <div class="star5">
+                     <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                 <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                  <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                   <img src="~/css/star copy 4.png" style="margin-right: 5px;" />
+                     <img src="~/css/star copy 2.png" style="margin-right: 5px;" />
+                </div>
+                <h3 class="swadecost">$499</h3>
+                <h3 class="swadeprice">$599</h3>
+            </a>
+        </div>
+        <section class="search-wrap">
+            <div class="search-box" asp-controller="Product" asp-action="Filter">
+                <input type="text" class="input" placeholder="Search query..."/>
+                <button>SEARCH</button>
+            </div>
+        </section>
+   </div>
+</body>

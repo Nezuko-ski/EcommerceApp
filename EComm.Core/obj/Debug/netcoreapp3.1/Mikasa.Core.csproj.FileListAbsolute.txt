@@ -1,0 +1,5 @@
+C:\Users\hp\source\repos\Mikasa\EComm.Core\obj\Debug\netcoreapp3.1\Mikasa.Core.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\Mikasa\EComm.Core\obj\Debug\netcoreapp3.1\Mikasa.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\Mikasa\EComm.Core\obj\Debug\netcoreapp3.1\Mikasa.Core.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\Mikasa\EComm.Core\obj\Debug\netcoreapp3.1\Mikasa.Core.AssemblyInfo.cs
+C:\Users\hp\source\repos\Mikasa\EComm.Core\obj\Debug\netcoreapp3.1\Mikasa.Core.csproj.CoreCompileInputs.cache

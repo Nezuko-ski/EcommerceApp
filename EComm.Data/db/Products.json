@@ -1,0 +1,73 @@
+  {
+    "Id": "1",
+    "Name": "Nike Air Max 270 React",
+    "Description": "This describes the product.",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/hwJPScK.jpg",
+    "ProductCategory": 1
+  }
+  {
+    "Id": "2",
+    "Name": "Fs - Quilted Maxi Cross Bag",
+    "Description": "This describes the product.",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/t7368rv.png",
+    "ProductCategory": 2
+  }
+  {
+    "Id": "3",
+    "Name": "Blue Swade Nike Sneakers",
+    "Description": "This describes the product.",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/apT296h.png",
+    "ProductCategory": 1
+  }
+  {
+    "Id": 7,
+    "Name": "Nike Air Max 3 Radiant Red",
+    "Description": "This describes the product",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/5RKh8DR.jpg",
+    "ProductCategory": 1
+  }
+  {
+    "Id": 14,
+    "Name": "Nike Air Max Motif",
+    "Description": "This describes the product",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/cbR9uWM.jpg",
+    "ProductCategory": 1
+  }
+  {
+    "Id": 18,
+    "Name": "Zara Crossbody Purse",
+    "Description": "This describes the product",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/9DzoYZd.jpg",
+    "ProductCategory": 2
+  }
+  {
+    "Id": 22,
+    "Name": "Nike Air Max 90 NRG",
+    "Description": "This describes the product",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/42hAReJ.jpg",
+    "ProductCategory": 1
+  }
+  {
+    "Id": 25,
+    "Name": "Alligator Pattern  handbag",
+    "Description": "This describes the product",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/GW8ubYz.jpg",
+    "ProductCategory": 1
+  }
+  {
+    "Id": "26",
+    "Name": "Tom Ford Greta Sunglasses",
+    "Description": "This describes the product",
+    "Price": 299.43,
+    "ImageURL": "https://i.imgur.com/IKru8u4.jpg",
+    "ProductCategory": 4
+  }
+
